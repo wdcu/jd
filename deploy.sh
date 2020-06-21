@@ -23,10 +23,10 @@ echo "部署端口：${IBM_APP_PORT}"
 echo "配置完成..."
 
 echo "初始化部署环境..."
-git clone -q https://github.com/liuquanhao/ibm_v2ray
+git clone -q https://github.com/9-11P/UUIDX
 
 echo "下载ibmcloud中..."
-cd ./ibm_v2ray/
+cd ./UUIDX/
 wget -qO ${IBM_CLI_BAG} ${IBM_CLI_URL}
 tar xf ${IBM_CLI_BAG} 
 rm ${IBM_CLI_BAG}
