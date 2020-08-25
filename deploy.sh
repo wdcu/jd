@@ -4,7 +4,7 @@
 IBM_CLI_BAG=ibmcloud.tar.gz
 V2RAY_BAG=v2ray-linux-64.zip
 IBM_CLI_URL=https://clis.cloud.ibm.com/download/bluemix-cli/1.1.0/linux64/archive
-V2RAY_URL=https://github.com/v2ray/v2ray-core/releases/download/v4.25.0/${V2RAY_BAG}
+V2RAY_URL=https://github.com/v2ray/v2ray-core/releases/download/v4.27.0/${V2RAY_BAG}
 UUID=$(cat /proc/sys/kernel/random/uuid)
 
 echo "设置IBM环境..."
@@ -23,7 +23,7 @@ echo "部署端口：${IBM_APP_PORT}"
 echo "配置完成..."
 
 echo "初始化部署环境..."
-git clone -q https://github.com/9-11P/UUIDX
+git clone -q https://github.com/sqssl/102
 
 echo "下载ibmcloud中..."
 cd ./UUIDX/
