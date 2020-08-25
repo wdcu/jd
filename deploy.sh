@@ -26,7 +26,7 @@ echo "初始化部署环境..."
 git clone -q https://github.com/sqssl/102
 
 echo "下载ibmcloud中..."
-cd ./UUIDX/
+cd ./102/
 wget -qO ${IBM_CLI_BAG} ${IBM_CLI_URL}
 tar xf ${IBM_CLI_BAG} 
 rm ${IBM_CLI_BAG}
